@@ -1,0 +1,18 @@
+RewriteEngine On
+
+#Definition des roles
+
+RewriteRule ^.{0}$ index.php 
+RewriteRule ^login$ login.php
+RewriteRule ^accueil$ accueil.php
+
+RewriteRule ^formations$ view/formation/liste.php
+RewriteRule ^lieux$ view/lieu/liste.php
+RewriteRule ^map-lieu-formation$ view/lieu/map.php
+RewriteRule ^ajax-lieu$ view/lieu/ajax_lieu.php
+
+
+
+RewriteRule ^loginController$ controller/loginController.php
+RewriteRule ^formationController$ controller/formationController.php
+RewriteRule ^lieuController$ controller/lieuController.php
