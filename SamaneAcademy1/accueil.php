@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Framework SamaneMVC</title>
+    <title>SAMANE</title>
     <meta name="author" content="aizentk8@gmail.com">
     <link rel="stylesheet" type="text/css" media="screen" href="public/css/bootstrap.min.css"/>
 </head>
